@@ -1,0 +1,143 @@
+@charset "utf-8";
+.new-works {
+    margin: 0 auto;
+    width: 752px;
+    height: 579px;
+    border-radius: 20px;
+    background: #ffffff;
+    position: relative;
+}
+
+.works-title {
+    height: 45px;
+    width: 100%;
+    background: #17a8fa;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    line-height: 45px;
+    color: #e5edf2;
+}
+
+.works-close {
+    border: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    background: url(images/btn_close_nor.png) no-repeat;
+}
+
+.works-close:hover {
+    background: url(images/btn_close_hov.png) no-repeat;
+}
+
+.works-close:active {
+    background: url(images/btn_close_pre.png) no-repeat;
+}
+
+.works-main {
+    width: 100%;
+    margin-left: 42px;
+    margin-top: 30px;
+    color: #4d5b67;
+}
+
+.works-main span {
+    width: 64px;
+    display: inline-block;
+    text-align: right;
+}
+
+.works-main input {
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+
+.works-main .works-name {
+    height: 34px;
+    width: 300px;
+    margin-bottom: 24px;
+}
+
+.works-main .works-authors {
+    width: 400px;
+    height: 84px;
+    margin-bottom: 20px;
+}
+
+.btn-add-authors {
+    position: absolute;
+    top: 194px;
+    left: 533px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background: url(images/btn_add_nor.png) no-repeat;
+}
+
+.btn-add-authors:hover {
+    background: url(images/btn_add_hov.png) no-repeat;
+}
+
+.btn-add-authors:active {
+    background: url(images/btn_add_pre.png) no-repeat;
+}
+
+.works-main .works-img {
+    width: 300px;
+    height: 36px;
+    margin-bottom: 16px;
+}
+
+.works-main .works-img input {
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+
+.works-main input::-webkit-input-placeholder {
+    padding-left: 10px;
+}
+
+.works-main input::-moz-placeholder {
+    padding-left: 10px;
+}
+
+.works-introduce {
+    width: 550px;
+    margin-left: 9px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+}
+
+.works-ft {
+    width: 100%;
+    height: 100px;
+    background: #f0f5f9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.works-ft button {
+    margin-top: 20px;
+    width: 122px;
+    height: 34px;
+    border: none;
+    color: #ffffff;
+    background: url(images/btn-submit.png) no-repeat;
+}
+
+.works-ft span {
+    color: #b2b2b2;
+    display: inline-block;
+    margin-top: 12px;
+}

@@ -1,0 +1,145 @@
+.class-member {
+    margin: 0 auto;
+    width: 447px;
+    height: 580px;
+    border-radius: 20px;
+    background: #ffffff;
+    position: relative;
+}
+
+.member-title {
+    height: 45px;
+    width: 100%;
+    background: #17a8fa;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    text-align: center;
+    line-height: 45px;
+    color: #e5edf2;
+}
+
+.works-close {
+    border: none;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 15px;
+    top: 12px;
+    background: url(images/btn_close_nor.png) no-repeat;
+}
+
+.works-close:hover {
+    background: url(images/btn_close_hov.png) no-repeat;
+}
+
+.works-close:active {
+    background: url(images/btn_close_pre.png) no-repeat;
+}
+
+.member-main {
+    width: 100%;
+    height: 445px;
+}
+
+.member-left {
+    width: 144px;
+    height: 423px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    margin-top: 23px;
+    margin-left: 19px;
+}
+
+.member-right {
+    position: absolute;
+    top: 68px;
+    right: 20px;
+    width: 144px;
+    height: 423px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    margin-left: 260px;
+}
+
+.button-group {
+    position: absolute;
+    top: 68px;
+    right: 175px;
+    width: 98px;
+    height: 423px;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 34px;
+    margin-left: 22px;
+}
+
+.add {
+    margin-top: 145px;
+    margin-bottom: 40px;
+    background: url(images/btn_ad_nor.png);
+}
+
+.add:hover {
+    background: url(images/btn_ad_hov.png);
+}
+
+.add:disabled {
+    background: url(images/btn_ad_dis.png);
+}
+
+.add:active {
+    background: url(images/btn_ad_pre.png);
+}
+
+.delete {
+    background: url(images/btn_delete_nor.png);
+}
+
+.delete:hover {
+    background: url(images/btn_delete_hov.png);
+}
+
+.delete:disabled {
+    background: url(images/btn_delete_dis.png);
+}
+
+.delete:active {
+    background: url(images/btn_delete_pre.png);
+}
+
+.member-ft {
+    width: 100%;
+    height: 67px;
+    background: #f0f5f9;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.confirm {
+    position: absolute;
+    right: 63px;
+    top: 20px;
+    width: 84px;
+    height: 34px;
+    background: url(images/btn_submit_nor.png);
+}
+
+.confirm:hover {
+    background: url(images/btn_submit_hov.png);
+}
+
+.confirm:disabled {
+    background: url(images/btn_submit_dis.png);
+}
+
+.confirm:active {
+    background: url(images/btn_submit_pre.png);
+}

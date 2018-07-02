@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VR创客教室</title>
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="l-sidebar">
+        <div class="vr-logo-box">
+            <a href="javascript:;" title="101 VR创客教室" class="vr-logo">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div>
+        <div class="vr-class">
+            <div class="vr-class-title">
+                课程列表
+            </div>
+            <ul class="vr-class-list">
+                <li>
+                    <a href="javascript:;" class="vr-class-item">全部课程</a>
+                </li>
+                <li class="ui-on">
+                    <a href="javascript:;" class="vr-class-item">课程一：静夜思</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="vr-class-item">课程二：红军长征</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="vr-class-item">课程三：活字印刷术</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="vr-class-item">课程四：郑和下西洋</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="vr-class-item">课程五：梦想之家</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="l-content">
+        <div class="l-top">
+            <div class="user-info">
+                <div class="user-info-item">
+                    <span class="vr-icon vr-icon-user"></span>
+                    <span class="user-info__text">用户：王小明</span>
+                </div>
+                <div class="user-info-item">
+                    <div class="user-info-apart">
+
+                    </div>
+                </div>
+                <div class="user-info-item">
+                    <span class="vr-icon vr-icon-id"></span>
+                    <span class="user-info__text">身份：学生</span>
+                </div>
+
+            </div>
+            <div class="vr-extend">
+                <select name="设备选择" id="">
+                    <option value="手机">设备选择</option>
+                </select>
+            </div>
+        </div>
+        <div class="l-main">
+            <div class="l-main__hd">
+                <ul class="vr-tab">
+                    <li class="var-tab__items choose-this">我的作品</li>
+                    <li class="var-tab__items">班级作品</li>
+                </ul>
+                <ul class="vr-btns-group">
+                    <li class="vr-btn vr-btn-updata"><i class="vr-icon vr-icon-updata "></i>提交作品</li>
+                    <li class="vr-brn vr-btn-new" id="newadd" <i class="vr-icon vr-icon-new ">
+                        </i>新建作品</li>
+                </ul>
+            </div>
+            <div class="l-main__bd">
+                <div class="vr-search">
+                    <input type="text" placeholder="搜索资源...">
+                    <i class="vr-icon vr-icon-search"></i>
+                    <button>搜索</button>
+                </div>
+                <div class="vr-card-main ">
+                    <ul class="vr-card-info">
+                        <a href="" title="李冉、涂佳佳、李婷、张婷、张三、李四、王小明、张三丰、黎明">
+                            <li class="vr-card-item">
+
+                                <div class="item-top">
+                                    <div class="item-member">
+                                        李冉、涂佳佳、李婷婷...
+                                    </div>
+
+                                    <div class="item-time">
+                                        2016/7/1 14:12
+
+                                    </div>
+                                </div>
+                                <div class="item-ft">
+                                    <ul class="card-button-group">
+                                        <li class="button-icon-edit">编辑</li>
+                                        <li class="button-icon-play">播放</li>
+                                        <li class="button-icon-delete">删除</li>
+
+                                    </ul>
+                                </div>
+                                <div class="card-item-title">
+                                    郑和下西洋
+
+                                </div>
+
+                            </li>
+                        </a>
+                        <a href="" title="李冉、涂佳佳、李婷、张婷、张三、李四、王小明、张三丰、黎明">
+                            <li class="vr-card-item even-number">
+                                <div class="item-top">
+                                    <div class="item-member">
+                                        李冉、涂佳佳、李婷婷...
+                                    </div>
+
+                                    <div class="item-time">
+                                        2016/7/1 14:12
+
+                                    </div>
+                                </div>
+                                <div class="item-ft">
+                                    <ul class="card-button-group">
+                                        <li class="button-icon-edit">编辑</li>
+                                        <li class="button-icon-play">播放</li>
+                                        <li class="button-icon-delete">删除</li>
+
+                                    </ul>
+                                </div>
+                                <div class="card-item-title">
+                                    郑和下西洋
+
+                                </div>
+                            </li>
+                        </a>
+                        <a href="" title="李冉、涂佳佳、李婷、张婷、张三、李四、王小明、张三丰、黎明">
+                            <li class="vr-card-item">
+                                <div class="item-top">
+                                    <div class="item-member">
+                                        李冉、涂佳佳、李婷婷...
+                                    </div>
+
+                                    <div class="item-time">
+                                        2016/7/1 14:12
+
+                                    </div>
+                                </div>
+                                <div class="item-ft">
+                                    <ul class="card-button-group">
+                                        <li class="button-icon-edit">编辑</li>
+                                        <li class="button-icon-play">播放</li>
+                                        <li class="button-icon-delete">删除</li>
+
+                                    </ul>
+                                </div>
+                                <div class="card-item-title">
+                                    郑和下西洋
+
+                                </div>
+                            </li>
+                        </a>
+                        <a href="" title="李冉、涂佳佳、李婷、张婷、张三、李四、王小明、张三丰、黎明">
+                            <li class="vr-card-item even-number">
+                                <div class="item-top">
+                                    <div class="item-member">
+                                        李冉、涂佳佳、李婷婷...
+                                    </div>
+
+                                    <div class="item-time">
+                                        2016/7/1 14:12
+
+                                    </div>
+                                </div>
+                                <div class="item-ft">
+                                    <ul class="card-button-group">
+                                        <li class="button-icon-edit">编辑</li>
+                                        <li class="button-icon-play">播放</li>
+                                        <li class="button-icon-delete">删除</li>
+
+                                    </ul>
+                                </div>
+                                <div class="card-item-title">
+                                    郑和下西洋
+
+                                </div>
+                            </li>
+                        </a>
+                        <a href="" title="李冉、涂佳佳、李婷、张婷、张三、李四、王小明、张三丰、黎明">
+                            <li class="vr-card-item">
+                                <div class="item-top">
+                                    <div class="item-member">
+                                        李冉、涂佳佳、李婷婷...
+                                    </div>
+
+                                    <div class="item-time">
+                                        2016/7/1 14:12
+
+                                    </div>
+                                </div>
+                                <div class="item-ft">
+                                    <ul class="card-button-group">
+                                        <li class="button-icon-edit">编辑</li>
+                                        <li class="button-icon-play">播放</li>
+                                        <li class="button-icon-delete">删除</li>
+
+                                    </ul>
+                                </div>
+                                <div class="card-item-title">
+                                    郑和下西洋
+
+                                </div>
+                            </li>
+                        </a>
+                        <a href="" title="李冉、涂佳佳、李婷、张婷、张三、李四、王小明、张三丰、黎明">
+                            <li class="vr-card-item even-number">
+                                <div class="item-top">
+                                    <div class="item-member">
+                                        李冉、涂佳佳、李婷婷...
+                                    </div>
+
+                                    <div class="item-time">
+                                        2016/7/1 14:12
+
+                                    </div>
+                                </div>
+                                <div class="item-ft">
+                                    <ul class="card-button-group">
+                                        <li class="button-icon-edit">编辑</li>
+                                        <li class="button-icon-play">播放</li>
+                                        <li class="button-icon-delete">删除</li>
+
+                                    </ul>
+                                </div>
+                                <div class="card-item-title">
+                                    郑和下西洋
+
+                                </div>
+                            </li>
+                        </a>
+                        <a href="" title="李冉、涂佳佳、李婷、张婷、张三、李四、王小明、张三丰、黎明">
+                            <li class="vr-card-item">
+                                <div class="item-top">
+                                    <div class="item-member">
+                                        李冉、涂佳佳、李婷婷...
+                                    </div>
+
+                                    <div class="item-time">
+                                        2016/7/1 14:12
+
+                                    </div>
+                                </div>
+                                <div class="item-ft">
+                                    <ul class="card-button-group">
+                                        <li class="button-icon-edit">编辑</li>
+                                        <li class="button-icon-play">播放</li>
+                                        <li class="button-icon-delete">删除</li>
+
+                                    </ul>
+                                </div>
+                                <div class="card-item-title">
+                                    郑和下西洋
+
+                                </div>
+                            </li>
+                        </a>
+                        <a href="" title="李冉、涂佳佳、李婷、张婷、张三、李四、王小明、张三丰、黎明">
+                            <li class="vr-card-item even-number">
+                                <div class="item-top">
+                                    <div class="item-member">
+                                        李冉、涂佳佳、李婷婷...
+                                    </div>
+
+                                    <div class="item-time">
+                                        2016/7/1 14:12
+
+                                    </div>
+                                </div>
+                                <div class="item-ft">
+                                    <ul class="card-button-group">
+                                        <li class="button-icon-edit">编辑</li>
+                                        <li class="button-icon-play">播放</li>
+                                        <li class="button-icon-delete">删除</li>
+
+                                    </ul>
+                                </div>
+                                <div class="card-item-title">
+                                    郑和下西洋
+
+                                </div>
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="l-ft">
+                    <ul class="vr-card-pages">
+                        <li class="pages-item">&lt;</li>
+                        <li class="pages-item now">1</li>
+                        <li class="pages-item">2</li>
+                        <li class="pages-item">3</li>
+                        <li class="pages-item">4</li>
+                        <li class="pages-item">5</li>
+                        <li class="pages-item">...</li>
+                        <li class="pages-item">100</li>
+                        <li class="pages-item">&gt;</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <!-- 新建作品 -->
+    <div class="new-works" id="addworks">
+        <div class="works-title">
+            新建作品
+            <button id="works-close">
+            
+        </button>
+        </div>
+        <div class="works-main">
+            <span>资源名称</span><input type="text" placeholder="真实世界-泰会玩" class="works-name"> <br>
+            <span>作者</span><input type="text" class="works-authors"><br>
+            <button id="btn-add-authors"></button>
+            <span>配图</span><input type="text" class="works-img" placeholder="点击上传图片"> <br>
+            <span>简介</span>
+            <textarea name="" id="" cols="30" rows="10" class="works-introduce">《真实世界-泰会玩》第三站，我们来到清迈，清迈素有“泰北玫瑰”之称。二因他农山则是这座小城一道亮丽的风景线。这一站我们来探秘因他农，因为这里不但藏着皇室的秘密花园，还有夏日炎炎中的几十度的温差，700年前的兰纳泰王朝的遗迹，而且这里还居住着神秘的“克伦族“人</textarea>
+        </div>
+        <div class="works-ft">
+            <button class="submit">
+                确定提交
+            </button><br>
+            <span>提交后显示在班级作品区</span>
+        </div>
+
+    </div>
+
+    <!-- 成员 -->
+    <div class="class-member" id="classmember">
+        <div class="member-title">
+            班级成员
+            <button class="works-close"></button>
+        </div>
+        <div class="member-main">
+            <div class="member-left">
+                <div>
+                    <input type="text" placeholder="搜索人名...">
+                    <i class="search-name"></i>
+                </div>
+
+                <div class="member-list">
+                    <ul>
+                        <li>李明</li>
+                        <li>张三疯</li>
+                        <li>吴老二</li>
+                        <li>斯琴高娃</li>
+                        <li>周杰伦</li>
+                        <li>吴克群</li>
+                        <li>霍建华</li>
+                        <li>张张站</li>
+                        <li>李连杰</li>
+                        <li>王宝强</li>
+                        <li>李明</li>
+                        <li>张三疯</li>
+                        <li>李明</li>
+                        <li>张三疯</li>
+
+                    </ul>
+                </div>
+
+            </div>
+            <div class="button-group">
+                <button class="add"></button>
+                <button class="delete"></button>
+
+            </div>
+            <div class="member-right">
+                <ul>
+                    <li>王小明</li>
+                    <li>张强</li>
+                    <li>李四</li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="member-ft">
+            <button class="confirm">
+                
+            </button>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
